@@ -1,7 +1,6 @@
 package org.example;
 
-public class Vet {
+public class Vet extends Adoptor {
 
-    String name;
     String specialization;
 }
