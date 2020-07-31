@@ -8,16 +8,16 @@ public class App
     public static void main( String[] args )
     {
       Adoptor adoptor = new Adoptor();
-     adoptor.name = "Andrei";
-     adoptor.money = 1000;
+     adoptor.setName("Andrei");
+     adoptor.setMoney(1000);
 
      Animal animal = new Animal();
      animal.age = 2;
-     animal.name ="Rex";
+     animal.setName("Rex");
      animal.healthLevel = 8;
      animal.hungerLevel = 5;
-     animal.favoritFoodName = "Bone";
-     animal.favoritRecreationName = "Running";
+     animal.setFavoritFoodName("Bones");
+     animal.setFavoritRecreationName("Running");
 
      Food food = new Food("Milk");
      food.name = "Milk";
@@ -30,8 +30,8 @@ public class App
      entertainmant.name ="Running";
 
      Vet vet = new Vet();
-     vet.name = "Dr.House";
-     vet.specialization = "General";
+     vet.setName("Doc");
+     vet.setSpecialization("General");
 
      Game game= new Game();
      game.adoptor = adoptor;

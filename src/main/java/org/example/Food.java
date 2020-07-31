@@ -3,7 +3,7 @@ package org.example;
 import java.time.LocalDateTime;
 
 public class Food {
-    String name;
+   String name;
     double price;
     double quantity;
     boolean inStock;
