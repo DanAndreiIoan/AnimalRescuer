@@ -20,11 +20,11 @@ public class App
      animal.setFavoritRecreationName("Running");
 
      Food food = new Food("Milk");
-     food.name = "Milk";
-     food.price = 50.10;
-     food.inStock = true;
-     food.quantity = 855;
-     food.expirationDate = LocalDateTime.of(2018, 12, 31, 12, 0, 0);
+     food.setName("milk");
+     food.setPrice(2.5);
+     food.setInStock(true);
+     food.setQuantity(855);
+     food.setExpirationDate( LocalDateTime.of(2018, 12, 31, 12, 0, 0));
 
      Entertainmant entertainmant = new Entertainmant("Running");
      entertainmant.name ="Running";
