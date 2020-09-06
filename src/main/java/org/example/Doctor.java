@@ -1,6 +1,6 @@
 package org.example;
 
-ublic class Doctor extends MedicalStaff {
+public class Doctor extends MedicalStaff {
 
     private double experienceYears;
 

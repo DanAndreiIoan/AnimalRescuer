@@ -1,10 +1,10 @@
 package org.example;
 
-public class EntertainmentActivity {
+public class Entertainment {
 
     private String name;
 
-    public EntertainmentActivity(String name) {
+    public Entertainment(String name) {
         this.name = name;
     }
 
@@ -16,4 +16,3 @@ public class EntertainmentActivity {
         this.name = name;
     }
 }
-

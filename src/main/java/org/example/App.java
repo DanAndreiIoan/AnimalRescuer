@@ -19,7 +19,7 @@ public class App
      animal.setFavoriteFoodName("Bones");
      animal.setFavoriteActivityName("Running");
 
-     EntertainmentActivity activity = new EntertainmentActivity("Running");
+     Entertainment activity = new Entertainment("Running");
 
      Food food = new Food("Milk");
      food.setName("milk");
@@ -33,14 +33,10 @@ public class App
      medic.setSpecialization("General Medicine");
 
 
-     Vet vet = new Vet();
-     vet.setName("Doc");
-     vet.setSpecialization("General");
-
      Game game= new Game();
-     game.adoptor = adoptor;
+     game.setAdaptor
      game.animal= animal;
-     game.vet = vet;
+
 
     }
 }
