@@ -19,7 +19,7 @@ public class App
      animal.setFavoriteFoodName("Bones");
      animal.setFavoriteActivityName("Running");
 
-     Entertainment activity = new Entertainment("Running");
+     EntertainmentActivity activity = new EntertainmentActivity("Running");
 
      Food food = new Food("Milk");
      food.setName("milk");
@@ -34,8 +34,22 @@ public class App
 
 
      Game game= new Game();
-     game.setAdaptor
-     game.animal= animal;
+     game.setRescuer(adoptor);
+     game.setAnimal(animal);
+     game.setMedic(medic);
+
+     adoptor.feed(animal, food);
+     adoptor.entertain(animal, activity);
+
+     animal.expressJoy();
+
+     Animal dog = new Dog();
+     dog.setName("Panda Maci");
+     dog.expressJoy();
+
+     Animal fish = new Fish();
+     fish.setName("Bregović");
+     fish.expressJoy();
 
 
     }
