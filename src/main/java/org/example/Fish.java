@@ -1,0 +1,20 @@
+package org.example;
+
+public class Fish extends Animal {
+
+    private int wingsCount;
+
+    @Override
+    public void expressJoy() {
+        System.out.println(getName() + " is swimming playfully.");
+    }
+
+    public int getWingsCount() {
+        return wingsCount;
+    }
+
+    public void setWingsCount(int wingsCount) {
+        this.wingsCount = wingsCount;
+    }
+}
+

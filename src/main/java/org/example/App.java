@@ -7,17 +7,19 @@ public class App
 {
     public static void main( String[] args )
     {
-      Adoptor adoptor = new Adoptor();
+     Adoptor adoptor = new Adoptor();
      adoptor.setName("Andrei");
      adoptor.setMoney(1000);
 
      Animal animal = new Animal();
-     animal.age = 2;
+     animal.setAge(2);
      animal.setName("Rex");
-     animal.healthLevel = 8;
-     animal.hungerLevel = 5;
-     animal.setFavoritFoodName("Bones");
-     animal.setFavoritRecreationName("Running");
+     animal.setHealthLevel(8);
+     animal.setHungerLevel(5);
+     animal.setFavoriteFoodName("Bones");
+     animal.setFavoriteActivityName("Running");
+
+     EntertainmentActivity activity = new EntertainmentActivity("Running");
 
      Food food = new Food("Milk");
      food.setName("milk");
@@ -26,8 +28,10 @@ public class App
      food.setQuantity(855);
      food.setExpirationDate( LocalDateTime.of(2018, 12, 31, 12, 0, 0));
 
-     Entertainmant entertainmant = new Entertainmant("Running");
-     entertainmant.name ="Running";
+     MedicalStaff medic = new MedicalStaff();
+     medic.setName("Dr. Who");
+     medic.setSpecialization("General Medicine");
+
 
      Vet vet = new Vet();
      vet.setName("Doc");
